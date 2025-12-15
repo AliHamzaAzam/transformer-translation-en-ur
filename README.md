@@ -106,7 +106,6 @@ Evaluated on 2,821 test sentence pairs:
 | Corpus BLEU-4 | 0.342 |
 | METEOR | 0.558 |
 
-
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE).
