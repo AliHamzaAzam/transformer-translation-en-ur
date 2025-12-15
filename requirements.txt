@@ -1,0 +1,37 @@
+# Core dependencies for English-Urdu Machine Translation
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# NLP and tokenization
+nltk>=3.8.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# ====================
+# OPTIONAL DEPENDENCIES
+# ====================
+
+# For Subword Tokenization (BPE) - Section 22
+# Uncomment to use SentencePiece for better tokenization
+# sentencepiece>=0.1.99
+
+# For mBART Fine-tuning - Section 24
+# Uncomment for pre-trained model fine-tuning (RECOMMENDED for best results)
+# transformers>=4.30.0
+# datasets>=2.12.0
+# accelerate>=0.20.0
+
+# For advanced tokenization
+# tokenizers>=0.13.0
+
+# Installation commands:
+# Basic (required):     pip install torch numpy pandas nltk matplotlib seaborn tqdm
+# With BPE:            pip install sentencepiece
+# With mBART:          pip install transformers datasets accelerate
+# Complete install:    pip install -r requirements.txt sentencepiece transformers datasets accelerate
